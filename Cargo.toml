@@ -6,6 +6,7 @@ license = "MIT"
 categories = ["development-tools", "development-tools::debugging"]
 keywords = ["error", "failure", "serde", "anyhow"]
 description = "Serde (de)serializer for Error types"
+repository = "https://github.com/Ekleog/serde-error"
 edition = "2018"
 
 [dependencies]
