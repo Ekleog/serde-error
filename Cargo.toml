@@ -1,0 +1,16 @@
+[package]
+name = "serde-error"
+version = "0.1.0"
+authors = ["Léo Gaspard <leo@gaspard.io>"]
+license = "MIT"
+categories = ["development-tools", "development-tools::debugging"]
+keywords = ["error", "failure", "serde", "anyhow"]
+description = "Serde (de)serializer for Error types"
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+anyhow = "1.0"
+bincode = "1.3"
