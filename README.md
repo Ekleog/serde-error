@@ -47,8 +47,7 @@ fn main() {
         assert_eq!(e.to_string(), "Running foo");
         assert_eq!(e.source().unwrap().to_string(), "Failed smurfing the smurfs");
     } else {
-        // ...
-#       panic!("bar did not return an error");
+        panic!("bar did not return an error");
     }
 }
 ```
