@@ -1,6 +1,6 @@
 [package]
 name = "serde-error"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Léo Gaspard <leo@gaspard.io>"]
 license = "MIT"
 categories = ["development-tools", "development-tools::debugging"]
