@@ -3,7 +3,7 @@
 // TODO: once backtrace lands stable, consider trying to serialize the backtrace too? not sure it
 // makes sense though.
 
-#[derive(serde::Deserialize, serde::Serialize)]
+#[derive(Clone, serde::Deserialize, serde::Serialize)]
 pub struct Error {
     description: String,
     source: Option<Box<Error>>,
